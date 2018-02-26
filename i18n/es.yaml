@@ -1,0 +1,96 @@
+# ===== title =====
+archive:
+  other: "Archivo"
+
+tags:
+  other: "Tags"
+
+categories:
+  other: "Categorías"
+
+# ===== footer =====
+powered:
+  other: "Powered by %s"
+
+theme:
+  other: "Tema"
+
+siteUV:
+  other: "site uv: %s"
+
+sitePV:
+  other: "site pv: %s"
+
+pagePV:
+  other: "Leído %s veces"
+
+# ===== post =====
+prevPage:
+  other: "Prev"
+
+nextPage:
+  other: "Next"
+
+prevPost:
+  other: "Prev"
+  
+nextPost:
+  other: "Next"
+  
+toc:
+  other: "Contents"
+
+readMore:
+  other: "Leer más.."
+
+reward:
+  other: "Reward"
+
+rewardAlipay:
+  other: "alipay"
+
+rewardWechat:
+  other: "wechat"
+
+wordCount:
+  one: "{{ .Count }} palabra"
+  other: "{{ .Count }} palabras"
+
+readingTime:
+  one: "{{ .Count }} min read"
+  other: "{{ .Count }} mins read"
+
+# ===== content license =====
+author:
+  other: "Autor"
+
+lastMod:
+  other: "LastMod"
+
+markdown:
+  other: "Markdown"
+
+seeMarkDown:
+  other: "The Markdown version »"
+
+license:
+  other: "Licencia"
+
+# ===== counter =====
+archiveCounter:
+  one: "{{ .Count }} Post en Total"
+  other: "{{ .Count }} Posts en Total"
+
+tagCounter:
+  one: "{{ .Count }} Tag en Total"
+  other: "{{ .Count }} Tags en Total"
+
+zeroTagCounter:
+  other: "No hay tags"
+
+categoryCounter:
+  one: "{{ .Count }} Categorías en Total"
+  other: "{{ .Count }} Categorías en Total"
+
+zeroCategoryCounter:
+  other: "No hay categorías"
