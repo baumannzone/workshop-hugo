@@ -38,7 +38,7 @@ nextPost:
   other: "Next"
   
 toc:
-  other: "Contents"
+  other: "Contenido"
 
 readMore:
   other: "Leer más.."
@@ -65,7 +65,7 @@ author:
   other: "Autor"
 
 lastMod:
-  other: "LastMod"
+  other: "Modificado"
 
 markdown:
   other: "Markdown"

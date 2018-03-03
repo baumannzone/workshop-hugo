@@ -1,15 +1,15 @@
 
-title = "Hugo WorkShop - @baumannzone"
+title = "Hugo Workshop - @baumannzone"
 baseURL = "http://localhost:1313/"
 languageCode = "es"
 defaultContentLanguage = "es"                             # en / zh-cn / ... (This field determines which i18n file to use)
 enableRobotsTXT = true
 enableEmoji = true
-theme = "even"
+theme = "hugo-theme-even"
 
 hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 3                                              # 首页每页显示的文章数
-disqusShortname = "baumannzone"      # disqus_shortname
+disqusShortname = "workshop-hugo"      # disqus_shortname
 googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
@@ -54,7 +54,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   description = "Create a website with GoHugo.io. OSWeekends March"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archivePaginate = 3
+  archivePaginate = 10
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2-1-2006"
@@ -78,8 +78,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  customCSS = []
-  customJS = []
+  customCSS = ['main.css']
+  customJS = ['main.js']
 
   [params.publicCDN]        # load these files from public cdn                          # 启用公共CDN，需自行定义
     enable = false
