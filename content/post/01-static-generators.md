@@ -1,16 +1,16 @@
 ---
-title: "Static Site Generator"
+title: "Generadores"
 date: 2018-02-28T18:57:32+01:00
 draft: false
 tags: ["Hugo", "Demo"]
-categories: ["Quickstart"]
+categories: ["Workshop"]
 ---
 
 ## ¿Qué es un Static Site Generator? 🤔
 Un generador estático de sitios (web) es una herramienta que nos permite crear páginas web dinámicas, es decir,
 una web con un blog, por ejemplo, sin necesidad de tener un back o una base de datos. ¡Y todo esto en 5 minutos!
 
-Los artículos de nuestro blog o las páginas web se escriben con [markdown]()
+Los artículos de nuestro blog o las páginas web se escriben con [markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
 
 <!--more-->
 
