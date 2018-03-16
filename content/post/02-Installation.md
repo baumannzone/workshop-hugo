@@ -9,7 +9,7 @@ autoCollapseToc: true
 
 ## Instalando Hugo
 Lo primero que tenemos que hacer para poder usar Hugo, es instalarlo. Vamos a instalar Hugo. Escribe el comando en
-la terminal o consola segun tu sistema operativo.
+la terminal o consola según tu sistema operativo.
 
 <!--more-->
 ### Mac:

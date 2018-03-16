@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Install on Learning Hugo - @baumannzone</title>
+    <link>http://localhost:1313/tags/install/</link>
+    <description>Recent content in Install on Learning Hugo - @baumannzone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 03 Mar 2018 15:38:49 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Instalación</title>
+      <link>http://localhost:1313/post/02-installation/</link>
+      <pubDate>Sat, 03 Mar 2018 15:38:49 +0100</pubDate>
+      
+      <guid>http://localhost:1313/post/02-installation/</guid>
+      <description>&lt;h2 id=&#34;instalando-hugo&#34;&gt;Instalando Hugo&lt;/h2&gt;
+
+&lt;p&gt;Lo primero que tenemos que hacer para poder usar Hugo, es instalarlo. Vamos a instalar Hugo. Escribe el comando en
+la terminal o consola según tu sistema operativo.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

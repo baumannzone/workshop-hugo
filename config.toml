@@ -1,5 +1,5 @@
 
-title = "Hugo Workshop - @baumannzone"
+title = "Learning Hugo - @baumannzone"
 baseURL = "http://localhost:1313/"
 languageCode = "es"
 defaultContentLanguage = "es"                             # en / zh-cn / ... (This field determines which i18n file to use)

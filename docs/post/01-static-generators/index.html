@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Generadores - Learning Hugo - @baumannzone</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Jorge Baumann" />
+  <meta name="description" content="¿Qué es un Static Site Generator? 🤔 Un generador estático de sitios (web) es una herramienta que nos permite crear páginas web dinámicas, es decir, una web con un blog, por ejemplo, sin necesidad de tener un back o una base de datos. ¡Y todo esto en 5 minutos!
+Los artículos de nuestro blog o las páginas web se escriben con markdown.
+
+" />
+
+  <meta name="keywords" content="Hugo, theme, even, workshop, from 0 to hero" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.37" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/01-static-generators/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.0.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<meta property="og:title" content="Generadores" />
+<meta property="og:description" content="¿Qué es un Static Site Generator? 🤔
+
+Un generador estático de sitios (web) es una herramienta que nos permite crear páginas web dinámicas, es decir,
+una web con un blog, por ejemplo, sin necesidad de tener un back o una base de datos. ¡Y todo esto en 5 minutos!
+
+Los artículos de nuestro blog o las páginas web se escriben con markdown.
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/01-static-generators/" />
+
+
+
+<meta property="article:published_time" content="2018-02-28T18:57:32&#43;01:00"/>
+
+<meta property="article:modified_time" content="2018-02-28T18:57:32&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Generadores">
+<meta itemprop="description" content="¿Qué es un Static Site Generator? 🤔
+
+Un generador estático de sitios (web) es una herramienta que nos permite crear páginas web dinámicas, es decir,
+una web con un blog, por ejemplo, sin necesidad de tener un back o una base de datos. ¡Y todo esto en 5 minutos!
+
+Los artículos de nuestro blog o las páginas web se escriben con markdown.
+
+">
+
+
+<meta itemprop="datePublished" content="2018-02-28T18:57:32&#43;01:00" />
+<meta itemprop="dateModified" content="2018-02-28T18:57:32&#43;01:00" />
+<meta itemprop="wordCount" content="300">
+
+
+
+<meta itemprop="keywords" content="Hugo,Demo," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Generadores"/>
+<meta name="twitter:description" content="¿Qué es un Static Site Generator? 🤔
+
+Un generador estático de sitios (web) es una herramienta que nos permite crear páginas web dinámicas, es decir,
+una web con un blog, por ejemplo, sin necesidad de tener un back o una base de datos. ¡Y todo esto en 5 minutos!
+
+Los artículos de nuestro blog o las páginas web se escriben con markdown.
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">My SuperSite</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Inicio</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archivo</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categorías</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">My SuperSite</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Inicio</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archivo</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categorías</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Generadores</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 28-2-2018 </span>
+        <div class="post-category">
+            
+              <a href="/categories/workshop/"> Workshop </a>
+            
+          </div>
+        <span class="more-meta"> 300 palabras </span>
+        <span class="more-meta"> 2 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contenido</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#qué-es-un-static-site-generator">¿Qué es un Static Site Generator? 🤔</a></li>
+<li><a href="#pros-y-contras">Pros y contras 📌</a></li>
+<li><a href="#staticgen">StaticGen 💪</a></li>
+<li><a href="#qué-es-hugo">¿Qué es Hugo? 👌</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h2 id="qué-es-un-static-site-generator">¿Qué es un Static Site Generator? 🤔</h2>
+
+<p>Un generador estático de sitios (web) es una herramienta que nos permite crear páginas web dinámicas, es decir,
+una web con un blog, por ejemplo, sin necesidad de tener un back o una base de datos. ¡Y todo esto en 5 minutos!</p>
+
+<p>Los artículos de nuestro blog o las páginas web se escriben con <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">markdown</a>.</p>
+
+<p></p>
+
+<h2 id="pros-y-contras">Pros y contras 📌</h2>
+
+<ul>
+<li>Pros
+
+<ul>
+<li>Velocidad (A la hora de crear el sitio web, no hablamos de rendimiento)</li>
+<li>Sistema de templates</li>
+<li>Seguridad, no necesitas BD</li>
+<li>Puedes hostear todo en <a href="https://pages.github.com/">gh-pages</a></li>
+<li>&hellip;</li>
+</ul></li>
+</ul>
+
+<p>Más info acerca de las ventajas de usar un static generator aquí: <a href="https://gohugo.io/about/benefits/">benefits</a></p>
+
+<ul>
+<li>Contras
+
+<ul>
+<li>Creas contenido a través de un editor de texto <code>¿?</code></li>
+<li>Puede ser más complicado al principio si no tienes experiencia</li>
+<li>Temas/Plantillas limitadas (pero puedes crearte la tuya propia)</li>
+<li>Dependes de la configuración de tu plantilla (tema)</li>
+<li>Requiere un perfil técnico para actualizar los contenidos</li>
+<li>&hellip;</li>
+</ul></li>
+</ul>
+
+<h2 id="staticgen">StaticGen 💪</h2>
+
+<p>En esta web (<a href="https://www.staticgen.com/">StaticGen</a>) podemos ver un listado bastante completo de generadores estáticos open source.</p>
+
+<p>Seguramente hayas oído hablar de <a href="https://jekyllrb.com/">Jekyll</a>, pues es el más popular. Está muy extendido en muchos repos de github.</p>
+
+<p>En el taller de hoy vamos a hablar de <strong>Hugo</strong> como static generator.</p>
+
+<hr />
+
+<h2 id="qué-es-hugo">¿Qué es Hugo? 👌</h2>
+
+<p><img src="/img/01/hugo-logo.png" alt="Logo Hugo" />
+Si entramos en la web oficial de <a href="https://gohugo.io/">Hugo</a> encontramos lo siguiente:
+<em>The world’s fastest framework for building websites.</em></p>
+
+<p><em>Hugo is one of the most popular open-source static site generators.
+With its amazing speed and flexibility, Hugo makes building websites fun again.</em></p>
+
+<p><em>Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.</em></p>
+
+<p>Podemos encontrar más info acerca Hugo en este link: <a href="https://gohugo.io/about/what-is-hugo/">What is Hugo</a></p>
+
+<p>En el caso de hugo, el fichero de configuración principal se encuentra en la raiz de nuestro proyecto bajo el nombre
+<code>config.toml</code>.</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Autor</span>
+    <span class="item-content">Jorge Baumann</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">Modificado</span>
+    <span class="item-content">28-2-2018</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/hugo/">Hugo</a>
+          
+          <a href="/tags/demo/">Demo</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/02-installation/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Instalación</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/shortcodes/">
+            <span class="next-text nav-default">Shortcodes</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname === 'localhost') return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'workshop-hugo';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/baumannzone" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.linkedin.com/in/baumannzone/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/baumannzone" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Tema - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Jorge Baumann</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.0.1"></script>
+
+
+
+
+
+
+
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>✍️ Creando nuestro sitio web - Learning Hugo - @baumannzone</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Jorge Baumann" />
+  <meta name="description" content="Creando nuestro sitio web Ahora que tenemos Hugo instalado, el siguiente paso es crear nuestro sitio web. Lo haremos con el siguiente comando:
+hugo new site demo-web " />
+
+  <meta name="keywords" content="Hugo, theme, even, workshop, from 0 to hero" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.37" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/03-creating-the-website/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.0.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<meta property="og:title" content="✍️ Creando nuestro sitio web" />
+<meta property="og:description" content="Creando nuestro sitio web
+
+Ahora que tenemos Hugo instalado, el siguiente paso es crear nuestro sitio web. Lo haremos con el siguiente comando:
+
+hugo new site demo-web
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/03-creating-the-website/" />
+
+
+
+<meta property="article:published_time" content="2018-03-03T19:06:03&#43;01:00"/>
+
+<meta property="article:modified_time" content="2018-03-03T19:06:03&#43;01:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="✍️ Creando nuestro sitio web">
+<meta itemprop="description" content="Creando nuestro sitio web
+
+Ahora que tenemos Hugo instalado, el siguiente paso es crear nuestro sitio web. Lo haremos con el siguiente comando:
+
+hugo new site demo-web
+">
+
+
+<meta itemprop="datePublished" content="2018-03-03T19:06:03&#43;01:00" />
+<meta itemprop="dateModified" content="2018-03-03T19:06:03&#43;01:00" />
+<meta itemprop="wordCount" content="450">
+
+
+
+<meta itemprop="keywords" content="create," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="✍️ Creando nuestro sitio web"/>
+<meta name="twitter:description" content="Creando nuestro sitio web
+
+Ahora que tenemos Hugo instalado, el siguiente paso es crear nuestro sitio web. Lo haremos con el siguiente comando:
+
+hugo new site demo-web
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">My SuperSite</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Inicio</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archivo</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categorías</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">My SuperSite</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Inicio</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archivo</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categorías</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">✍️ Creando nuestro sitio web</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 3-3-2018 </span>
+        <div class="post-category">
+            
+              <a href="/categories/workshop/"> Workshop </a>
+            
+          </div>
+        <span class="more-meta"> 450 palabras </span>
+        <span class="more-meta"> 3 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contenido</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#creando-nuestro-sitio-web">Creando nuestro sitio web</a></li>
+<li><a href="#instalando-un-tema">Instalando un tema</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <h2 id="creando-nuestro-sitio-web">Creando nuestro sitio web</h2>
+
+<p>Ahora que tenemos Hugo instalado, el siguiente paso es crear nuestro sitio web. Lo haremos con el siguiente comando:</p>
+
+<pre><code>hugo new site demo-web
+</code></pre>
+
+<p>
+Donde <code>demo-web</code> se corresponde con el nombre que yo he querido darle a mi nuevo sitio web. Puedes ponerle el nombre que quieras.</p>
+
+<p>Una vez hecho esto, accedemos a la carpeta desde la terminal:</p>
+
+<pre><code>cd demo-web
+</code></pre>
+
+<p>Si hacemos un <code>ls</code> para ver lo que ha generado Hugo, deberíamos tener un listado de ficheros como este:
+<img src="/img/03/file-list.png" alt="Listado-ficheros" /></p>
+
+<p>Podemos ver que tenemos varias carpeta vacías, y que solo tenemos 2 archivos: <code>archetypes/default.md</code> y <code>config.toml</code>.<br />
+No te asustes si no reconoces los formatos de los ficheros.</p>
+
+<p>Más adelante vamos a explicar para qué sirve cada carpeta y como ir dándole forma a nuestro sitio web.
+Y verás que es super fácil crear sitios web con Hugo.</p>
+
+<p>Vamos a dejar esto de lado temporalmente y vamos ver que aspecto tendría nuestra web.</p>
+
+<h2 id="instalando-un-tema">Instalando un tema</h2>
+
+<p>Tema, plantilla, template, theme.. lo puedes llamar como quieras. Antes de poder hacer nada, necesitamos instalar un tema para
+nuestra web. Puedes ver el listado de temas disponibles para Hugo <a href="https://themes.gohugo.io/">aquí</a>.</p>
+
+<p>Aunque todos los temas comparten bastante en cuanto a su forma de uso, hay diferencias entre unos y otros.
+Para evitar confusiones, vamos a instalar el tema <a href="https://themes.gohugo.io/hugo-theme-even/">Even</a>.</p>
+
+<p>Para instalarlo, desde la terminal de comandos, vamos a la carpeta <code>themes</code> y desde ahí ejecutamos este comando:</p>
+
+<pre><code>git clone git@github.com:olOwOlo/hugo-theme-even.git
+</code></pre>
+
+<p>Esto nos descarga el tema Even en nuestro proyecto. Si ejecutaramos el comando para levantar nuestro sitio web
+<code>hugo server -D</code>, y accedemos a la url que nos ha generado (suele ser: <code>http://localhost:1313/</code>), no veríamos nada.
+Esto es debido a que no hemos configurado
+nuestro sitio para que use el tema que acabamos de descargar.</p>
+
+<p>Esta configuración se hace en el fichero <code>config.toml</code>. Para ir rápido, vamos a copiar el contenido de <code>demo-web/themes/hugo-theme-even/exampleSite/config.toml</code>
+y lo vamos a pegar en nuestro fichero config ubicado en la raíz del proyecto.</p>
+
+<p>Ahora si, podríamos probar a levantar nuestro servidor web con Hugo:</p>
+
+<pre><code>hugo server -D
+
+// Nos genera lo siguiente
+                   | ES
++------------------+----+
+  Pages            | 44
+  Paginator pages  |  2
+  Non-page files   |  0
+  Static files     | 36
+  Processed images |  0
+  Aliases          | 15
+  Sitemaps         |  1
+  Cleaned          |  0
+
+Total in 82 ms
+Watching for changes in /demo-web/{content,data,i18n,layouts,static,themes}
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre>
+
+<p>Y ya tendríamos nuestro sitio web disponible en <a href="http://localhost:1313/">http://localhost:1313/</a>. Esta es la vista previa actual de nuestra web:</p>
+
+<p><img src="/img/03/preview.png" alt="Vista previa web" /></p>
+
+<p>En el siguiente post del blog, vamos a ver como dotar de contenido a nuestro sitio web. 👋</p>
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Autor</span>
+    <span class="item-content">Jorge Baumann</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">Modificado</span>
+    <span class="item-content">3-3-2018</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/create/">create</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/04-blogging/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Blogging</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/02-installation/">
+            <span class="next-text nav-default">Instalación</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname === 'localhost') return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'workshop-hugo';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="https://twitter.com/baumannzone" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.linkedin.com/in/baumannzone/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/baumannzone" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Tema - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Jorge Baumann</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.0.1"></script>
+
+
+
+
+
+
+
+<script src="/js/main.js"></script>
+
+
+</body>
+</html>
