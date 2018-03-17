@@ -43,7 +43,7 @@ En el taller de hoy vamos a hablar de **Hugo** como static generator.
 ---
 
 ## ¿Qué es Hugo? 👌
-![Logo Hugo](/img/01/hugo-logo.png)
+![Logo Hugo](/workshop-hugo/img/01/hugo-logo.png)
 Si entramos en la web oficial de [Hugo](https://gohugo.io/) encontramos lo siguiente:
 _The world’s fastest framework for building websites._
 

@@ -72,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://baumannzone.github.io/workshop-hugo/categories/food/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/food/</loc>
     <lastmod>2018-03-17T13:32:36+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://baumannzone.github.io/workshop-hugo/tags/food/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/categories/food/</loc>
     <lastmod>2018-03-17T13:32:36+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
