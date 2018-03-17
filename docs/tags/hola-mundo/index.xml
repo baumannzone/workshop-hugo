@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hola Mundo on Learning Hugo - @baumannzone</title>
-    <link>http://localhost:1313/tags/hola-mundo/</link>
+    <link>https://baumannzone.github.io/workshop-hugo/tags/hola-mundo/</link>
     <description>Recent content in Hola Mundo on Learning Hugo - @baumannzone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Mon, 26 Feb 2018 16:35:30 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/hola-mundo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://baumannzone.github.io/workshop-hugo/tags/hola-mundo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hola Mundo</title>
-      <link>http://localhost:1313/post/hola-mundo/</link>
+      <link>https://baumannzone.github.io/workshop-hugo/post/hola-mundo/</link>
       <pubDate>Mon, 26 Feb 2018 16:35:30 +0100</pubDate>
       
-      <guid>http://localhost:1313/post/hola-mundo/</guid>
+      <guid>https://baumannzone.github.io/workshop-hugo/post/hola-mundo/</guid>
       <description>&lt;p&gt;Este post ha sido creado con Hugo. Para crearlo, desde la carpeta raiz de nuestro proyecto, ejecutamos el siguiente comando:&lt;br /&gt;
 &lt;code&gt;hugo new post/hola-mundo.md&lt;/code&gt;&lt;/p&gt;
 

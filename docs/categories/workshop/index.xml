@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on Learning Hugo - @baumannzone</title>
-    <link>http://localhost:1313/categories/workshop/</link>
+    <link>https://baumannzone.github.io/workshop-hugo/categories/workshop/</link>
     <description>Recent content in Workshop on Learning Hugo - @baumannzone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Sat, 17 Mar 2018 00:41:08 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://baumannzone.github.io/workshop-hugo/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>😏 Blogging</title>
-      <link>http://localhost:1313/post/04-blogging/</link>
+      <link>https://baumannzone.github.io/workshop-hugo/post/04-blogging/</link>
       <pubDate>Sat, 17 Mar 2018 00:41:08 +0100</pubDate>
       
-      <guid>http://localhost:1313/post/04-blogging/</guid>
+      <guid>https://baumannzone.github.io/workshop-hugo/post/04-blogging/</guid>
       <description>La parte más divertida ha llegado. Creamos contenido para nuestro blog de manera rápida y sencilla.
 Seguro que ya te ha dado tiempo a aprender markdown. Vamos a ponerlo en práctica ahora. Para crear una entrada en nuestro blog, escribimos lo siguiente desde la terminal:
 hugo new post/04-blogging.md</description>
@@ -24,10 +24,10 @@ hugo new post/04-blogging.md</description>
     
     <item>
       <title>✍️ Creando nuestro sitio web</title>
-      <link>http://localhost:1313/post/03-creating-the-website/</link>
+      <link>https://baumannzone.github.io/workshop-hugo/post/03-creating-the-website/</link>
       <pubDate>Sat, 03 Mar 2018 19:06:03 +0100</pubDate>
       
-      <guid>http://localhost:1313/post/03-creating-the-website/</guid>
+      <guid>https://baumannzone.github.io/workshop-hugo/post/03-creating-the-website/</guid>
       <description>&lt;h2 id=&#34;creando-nuestro-sitio-web&#34;&gt;Creando nuestro sitio web&lt;/h2&gt;
 
 &lt;p&gt;Ahora que tenemos Hugo instalado, el siguiente paso es crear nuestro sitio web. Lo haremos con el siguiente comando:&lt;/p&gt;
@@ -38,10 +38,10 @@ hugo new post/04-blogging.md</description>
     
     <item>
       <title>💻 Instalación</title>
-      <link>http://localhost:1313/post/02-installation/</link>
+      <link>https://baumannzone.github.io/workshop-hugo/post/02-installation/</link>
       <pubDate>Sat, 03 Mar 2018 15:38:49 +0100</pubDate>
       
-      <guid>http://localhost:1313/post/02-installation/</guid>
+      <guid>https://baumannzone.github.io/workshop-hugo/post/02-installation/</guid>
       <description>&lt;h2 id=&#34;instalando-hugo&#34;&gt;Instalando Hugo&lt;/h2&gt;
 
 &lt;p&gt;Lo primero que tenemos que hacer para poder usar Hugo, es instalarlo. Vamos a instalar Hugo. Escribe el comando en
@@ -52,10 +52,10 @@ la terminal o consola según tu sistema operativo.&lt;/p&gt;
     
     <item>
       <title>👏 Generadores</title>
-      <link>http://localhost:1313/post/01-static-generators/</link>
+      <link>https://baumannzone.github.io/workshop-hugo/post/01-static-generators/</link>
       <pubDate>Wed, 28 Feb 2018 18:57:32 +0100</pubDate>
       
-      <guid>http://localhost:1313/post/01-static-generators/</guid>
+      <guid>https://baumannzone.github.io/workshop-hugo/post/01-static-generators/</guid>
       <description>&lt;h2 id=&#34;qué-es-un-static-site-generator&#34;&gt;¿Qué es un Static Site Generator? 🤔&lt;/h2&gt;
 
 &lt;p&gt;Un generador estático de sitios (web) es una herramienta que nos permite crear páginas web dinámicas, es decir,

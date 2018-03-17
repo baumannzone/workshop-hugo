@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Preview on Learning Hugo - @baumannzone</title>
-    <link>http://localhost:1313/tags/preview/</link>
+    <link>https://baumannzone.github.io/workshop-hugo/tags/preview/</link>
     <description>Recent content in Preview on Learning Hugo - @baumannzone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Thu, 31 Aug 2017 15:43:48 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/preview/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://baumannzone.github.io/workshop-hugo/tags/preview/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>English Creating a New Theme</title>
-      <link>http://localhost:1313/post/english-preview/</link>
+      <link>https://baumannzone.github.io/workshop-hugo/post/english-preview/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/english-preview/</guid>
+      <guid>https://baumannzone.github.io/workshop-hugo/post/english-preview/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo.

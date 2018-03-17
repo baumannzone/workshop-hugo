@@ -1,190 +1,190 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://baumannzone.github.io/workshop-hugo/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/about/</loc>
     <lastmod>2018-02-27T18:01:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/04-blogging/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/04-blogging/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/03-creating-the-website/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/03-creating-the-website/</loc>
     <lastmod>2018-03-03T19:06:03+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/02-installation/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/02-installation/</loc>
     <lastmod>2018-03-03T15:38:49+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/01-static-generators/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/01-static-generators/</loc>
     <lastmod>2018-02-28T18:57:32+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/shortcodes/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/shortcodes/</loc>
     <lastmod>2018-02-27T18:35:30+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/hola-mundo/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/hola-mundo/</loc>
     <lastmod>2018-02-26T16:35:30+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/english-preview/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/english-preview/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/blog/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/create/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/create/</loc>
     <lastmod>2018-03-03T19:06:03+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/demo/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/demo/</loc>
     <lastmod>2018-03-03T15:38:49+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/english/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/english/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/hola-mundo/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/hola-mundo/</loc>
     <lastmod>2018-02-26T16:35:30+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/hugo/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/inicio-rapido/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/categories/inicio-rapido/</loc>
     <lastmod>2018-02-27T18:35:30+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/install/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/install/</loc>
     <lastmod>2018-03-03T15:38:49+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/</loc>
     <lastmod>2018-02-27T18:01:35+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/post/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/post/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/preview/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/preview/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/shortcodes/</loc>
     <lastmod>2018-02-27T18:35:30+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/shortcodes/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/categories/shortcodes/</loc>
     <lastmod>2018-02-27T18:35:30+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-2/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/tag-2/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/workshop/</loc>
+    <loc>https://baumannzone.github.io/workshop-hugo/categories/workshop/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
