@@ -2,7 +2,7 @@
 title: "Shortcodes"
 date: 2018-02-27T16:35:30+01:00
 lastmod: 2018-02-27T18:35:30+01:00
-draft: false
+draft: true
 tags: ["shortcodes", "hugo"]
 categories: ["shortcodes", "inicio-rapido"]
 

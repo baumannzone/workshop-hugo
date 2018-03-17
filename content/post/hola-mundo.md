@@ -1,7 +1,7 @@
 ---
 title: "Hola Mundo"
 date: 2018-02-26T16:35:30+01:00
-draft: false
+draft: true
 tags: ["hola-mundo", "hugo"]
 categories: ["inicio-rapido"]
 author: "Jorge Baumann"
