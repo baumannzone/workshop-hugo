@@ -1,5 +1,5 @@
 ---
-title: "Generadores"
+title: "👏 Generadores"
 date: 2018-02-28T18:57:32+01:00
 draft: false
 tags: ["Hugo", "Demo"]
