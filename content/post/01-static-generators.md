@@ -4,6 +4,7 @@ date: 2018-02-28T18:57:32+01:00
 draft: false
 tags: ["Hugo", "Demo"]
 categories: ["Workshop"]
+
 ---
 
 ## ¿Qué es un Static Site Generator? 🤔

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food on Learning Hugo - @baumannzone</title>
+    <link>https://baumannzone.github.io/workshop-hugo/categories/food/</link>
+    <description>Recent content in Food on Learning Hugo - @baumannzone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 17 Mar 2018 13:32:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://baumannzone.github.io/workshop-hugo/categories/food/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hola Mundo 3</title>
+      <link>https://baumannzone.github.io/workshop-hugo/post/hola-mundo-3/</link>
+      <pubDate>Sat, 17 Mar 2018 13:32:36 +0100</pubDate>
+      
+      <guid>https://baumannzone.github.io/workshop-hugo/post/hola-mundo-3/</guid>
+      <description> Se nota que tenemos hambre esto es un texto de prueba sin sentido.
+ No se que poner
+ </description>
+    </item>
+    
+  </channel>
+</rss>

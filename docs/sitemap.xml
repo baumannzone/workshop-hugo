@@ -10,6 +10,13 @@
   </url>
   
   <url>
+    <loc>https://baumannzone.github.io/workshop-hugo/post/hola-mundo-3/</loc>
+    <lastmod>2018-03-17T13:32:36+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://baumannzone.github.io/workshop-hugo/post/04-blogging/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -65,6 +72,20 @@
   </url>
   
   <url>
+    <loc>https://baumannzone.github.io/workshop-hugo/categories/food/</loc>
+    <lastmod>2018-03-17T13:32:36+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/food/</loc>
+    <lastmod>2018-03-17T13:32:36+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://baumannzone.github.io/workshop-hugo/tags/hugo/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,6 +107,13 @@
   </url>
   
   <url>
+    <loc>https://baumannzone.github.io/workshop-hugo/tags/osw/</loc>
+    <lastmod>2018-03-17T13:32:36+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://baumannzone.github.io/workshop-hugo/tags/post/</loc>
     <lastmod>2018-03-17T00:41:08+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -94,7 +122,7 @@
   
   <url>
     <loc>https://baumannzone.github.io/workshop-hugo/post/</loc>
-    <lastmod>2018-03-17T00:41:08+01:00</lastmod>
+    <lastmod>2018-03-17T13:32:36+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>

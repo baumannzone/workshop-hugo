@@ -3,6 +3,6 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 tags: []
-categories: []
+categories: ["food"]
 ---
 

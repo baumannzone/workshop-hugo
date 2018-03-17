@@ -17,9 +17,9 @@
       <pubDate>Sat, 17 Mar 2018 00:41:08 +0100</pubDate>
       
       <guid>https://baumannzone.github.io/workshop-hugo/post/04-blogging/</guid>
-      <description>La parte más divertida ha llegado. Creamos contenido para nuestro blog de manera rápida y sencilla.
-Seguro que ya te ha dado tiempo a aprender markdown. Vamos a ponerlo en práctica ahora. Para crear una entrada en nuestro blog, escribimos lo siguiente desde la terminal:
-hugo new post/04-blogging.md</description>
+      <description>&lt;p&gt;La parte más divertida ha llegado. Creamos contenido para nuestro blog de manera rápida y sencilla.&lt;br /&gt;
+Seguro que ya te ha dado tiempo a aprender &lt;strong&gt;markdown&lt;/strong&gt;. Vamos a ponerlo en práctica ahora.
+&lt;/p&gt;</description>
     </item>
     
     <item>
