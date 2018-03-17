@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://baumannzone.github.io/workshop-hugo/"
+baseURL = "https://baumannzone.github.io/workshop-hugo/"
 publishDir = "docs"
 
 title = "Learning Hugo - @baumannzone"
